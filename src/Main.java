@@ -16,7 +16,7 @@ public class Main {
     public static void letrasDuplicadas(){
         String[] duplicates = {"abracadabra", "allottee", "assessee", "kelless", "keenness", "Alfalggo" };
         String[] resultado = new String[duplicates.length];
-        System.out.println("Resultado:");
+        System.out.println("Resultado duplicates:");
         System.out.print("[");
         for (int i = 0; i < duplicates.length; i++) {
             String atual = duplicates[i];
@@ -38,7 +38,6 @@ public class Main {
     public static void main(String[] args) {
 
         fatorial();
-        System.out.println();
         letrasDuplicadas();
     }
 
